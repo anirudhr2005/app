@@ -46,7 +46,7 @@ export default function ChatApp() {
               {messages.map((msg, index) => (
                 <div
                   key={index}
-                  className={\`p-2 rounded-xl max-w-[80%] \${msg.user === username ? 'bg-blue-100 self-end' : 'bg-gray-200 self-start'}\`}
+                 className={`p-2 rounded-xl max-w-[80%] ${msg.user === username ? 'bg-blue-100 self-end' : 'bg-gray-100'}`}
                 >
                   <strong>{msg.user}:</strong> {msg.text}
                 </div>
