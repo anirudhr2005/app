@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 
-export default function ChatApp() {
+export default function App() {
   const [username, setUsername] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [message, setMessage] = useState('');
